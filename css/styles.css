@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    height: 100vh;
+    width: 100vw;
+
+    background-color: #f8f4eb;
+}
+
+/* NAVBAR */
+
+.navbar{
+    margin: 0;
+    padding: 2em 5em 2em 4em;
+    
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-body-tertiary{
+    --bs-bg-opacity: none;
+}
+
+/* .container-fluid{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: space-between;
+} */
