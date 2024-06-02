@@ -1,21 +1,24 @@
+/* Configuración global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
-
     height: 100vh;
     width: 100vw;
-
-    background-color: #f1f1f1;
+    background-color: #f7dba7;
     font-family: Arial, Helvetica, sans-serif;
-
+    overflow-x: hidden; /* Previene el desplazamiento horizontal */
 }
 
 /* NAVBAR */
-
 .navbar {
     margin: 0;
     padding: 2em 5em 2em 4em;
-
     display: flex;
     justify-content: space-between;
 }
@@ -30,13 +33,9 @@ body {
 }
 
 /* MAIN-BANNER */
-
 .container-banner {
     height: 90vh;
     width: 100vw;
-
-    /* background-color: orangered; */
-
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -45,33 +44,27 @@ body {
 #banner-image {
     width: 100%;
     height: auto;
-
     margin-right: 2em;
-
 }
 
 #banner-box-text {
     width: 100%;
     height: 100%;
-
     margin-top: 0;
     padding: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .row {
-    padding: none;
-    margin: none;
+    padding: 0;
+    margin: 0;
 }
 
 .container-fluid {
-    padding-right: none;
-    padding-left: none;
+    padding: 0;
 }
 
 .margin-button {
@@ -79,15 +72,12 @@ body {
 }
 
 /* SECTION-1 */
-
 .main-container {
     height: 40vh;
     width: 80vw;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: relative;
 }
 
@@ -97,20 +87,15 @@ body {
     background-color: black;
     color: white;
     border-radius: 1.5em;
-
     box-shadow: 1em 1em 1.5em gray;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     position: absolute;
-
 }
 
 .block-content-main {
     padding-left: 3em;
-
 }
 
 .row {
@@ -132,23 +117,17 @@ body {
 .container-section-content {
     height: 80vh;
     width: 100vw;
-
-    /* background-color: yellow; */
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* GRID */
-
 #container-grip-main {
     height: 185vh;
     width: 100vw;
-
     margin: 0;
     padding: 0;
-    background-color: blue;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,8 +137,6 @@ body {
 .container-secundary {
     height: 180vh;
     width: 70vw;
-    background-color: blueviolet;
-
     display: flex;
     justify-content: center;
 }
@@ -167,9 +144,6 @@ body {
 .container-primary-title {
     height: 10vh;
     width: 70vw;
-
-    /* background-color: green; */
-
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -180,35 +154,25 @@ body {
     border: 0cap;
     padding: 2em;
     border-radius: 3em;
-
     margin: 1em;
-
     box-shadow: 1em 1em 1.5em gray;
 }
 
 /* CAPTION */
-
 .conteiner-caption {
     height: 30vh;
     width: 100vw;
-
-    /* background-color: yellow; */
-
     margin: 0;
     padding: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* FOOTER */
-
 .footer-container {
     background-color: black;
     color: white;
-
-
 }
 
 .footer-info {
@@ -221,33 +185,23 @@ body {
 }
 
 /* TITLE MENU PAGE */
-
 #container-title-menu {
     height: 30vh;
     width: 100vw;
-
     margin: 0;
     padding: 0;
-
-    background-color: blue;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #row-title-menu {
-    /* height: 30vh;
-    width: 100vw; */
-
     margin: 0;
     padding: 0;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
 }
 
 #col-left-title {
@@ -257,7 +211,6 @@ body {
     justify-content: center;
     align-items: start;
     flex-direction: column;
-
 }
 
 #col-raight-title {
@@ -269,9 +222,7 @@ body {
     flex-direction: column;
 }
 
-
 /* CONTACT */
-
 #icon-contact {
     height: 5em;
 }
@@ -283,7 +234,6 @@ body {
 }
 
 /* BLOCK CONTENT */
-
 .row-style-banner {
     margin-bottom: 3em;
 }
@@ -296,19 +246,15 @@ body {
     background-color: #282828;
     border-radius: 4em;
     color: white;
-    /* margin: 1em; */
     box-shadow: 1em 1em 1em rgb(167, 167, 167);
-
 }
 
 .col-style-content {
     margin: 2em;
-
 }
 
 .col-title-styles {
     padding-bottom: 3em;
-    background-color: #f1f1f1;
 }
 
 .col-styles-contact {
@@ -321,7 +267,6 @@ body {
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
- 
 }
 
 p {
@@ -331,7 +276,6 @@ p {
     font-style: normal;
     padding: 0;
     margin: 0;
-
 }
 
 .maven-font-p-bold {
@@ -348,5 +292,4 @@ p {
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
- 
 }
