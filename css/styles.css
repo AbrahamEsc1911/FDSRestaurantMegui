@@ -292,3 +292,32 @@ body {
 #icon-contact{
     height: 5em;
 }
+
+/* BANNER MAIN */
+.col-style-banner{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+/* BLOCK CONTENT */
+
+.row-style-banner{ 
+    margin-bottom: 3em;
+}
+
+.content-style{
+    margin-bottom: 7em;
+}
+
+.card-custom-content{
+    background-color: #282828;
+    border-radius: 4em;
+    color: white;
+    box-shadow: 1em 1em 1em rgb(167, 167, 167);
+
+}
+
+.col-style-content{
+    margin: 2em;
+
+}
