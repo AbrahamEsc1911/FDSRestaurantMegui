@@ -13,79 +13,135 @@
 </head>
 
 <body>
-    <header>
-        <!-- NAVBAR  -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            </div><a class="navbar-brand" href="./index.html">
-                <img id="imge-logo" src="./img/logo-color.svg" alt="logo-megui">
-            </a></div>
-            <div>
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-                            <a class="nav-link" href="./pages/menu.html">menu</a>
-                            <a class="nav-link" href="./pages/contact.html">contact</a>
-                        </div>
+
+    <!-- NAVBAR  -->
+    <nav class="navbar navbar-expand-lg">
+        </div><a class="navbar-brand" href="./index.html">
+            <img id="imge-logo" src="./img/logo-color.svg" alt="logo-megui">
+        </a></div>
+        <div>
+            <div class="container-mg">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        <a class="nav-link" href="./pages/menu.html">Menu</a>
+                        <a class="nav-link" href="./pages/contact.html">Contact</a>
                     </div>
-                </div>
-        </nav>
-        <!-- BANNER -->
-        <div class="container-fluid margin-button">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <div id="banner-box-text">
-                        <div class="banner-text">
-                            <h1>Fresh Food</h1>
-                        </div>
-                        <div class="banner-text">
-                            <h2>It's Better</h2>
-                        </div>
-                        <div class="banner-text">
-                            <p>135</p>
-                        </div>
-                        <div class="banner-text">
-                            <p>kcal</p>
-                        </div>
-                        <div class="banner-text">
-                            <p>32</p>
-                        </div>
-                        <div class="banner-text">
-                            <p>protein</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <img id="banner-image" src="./img/salad-1.webp" alt="salad-1">
                 </div>
             </div>
+    </nav>
+
+    <!-- BANNER -->
+    <div class="container-md">
+        <div class="row row-style-banner">
+            <div class="col-ms-12 col-md-5 col-style-banner">
+                <div id="banner-box-text">
+                    <div class="banner-text">
+                        <h1><span class="maven-font-h1">Food fresh  </span></h1>
+                        <h1><span class="maven-font-h1">It's Better</span></h1>
+                        <p><span class="maven-font-p-bold">135</span></p>
+                        <p>kcal</p>
+                        <p><span class="maven-font-p-bold">32</span></p>
+                        <p>protein</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-ms-12 col-md-5">
+                <img id="banner-image" src="./img/salad-1.webp" alt="salad-1">
+            </div>
         </div>
-    </header>
+    </div>
+
     <!-- SECTION CONTENT -->
-    <div class="container main-container">
-    <div class="card" >
-        <div class="row g-0">
-          <div class="col-md-6 block-content-main">
-            <img src="./img/salad-1.webp" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-6 block-content-main">    
-            <div class="card-body">
-                <p class="card-text">NEW</p>
-              <h1 class="card-title">Easy way to feel better</h1>
-              <button type="button" class="btn btn-warning">Order Now</button>
+
+    <div class="container-md content-style justify-content-center">
+        <div class="col-md-10 col-ms-12 offset-md-1 card card-custom-content">
+            <div class="row g-2 g-md-1">
+                <div class="col-md-5">
+                    <img src="./img/salad-7.webp" class="img-fluid rounded-start" alt="...">
+                </div>
+                <div class="col-md-5 gx-md-2 col-style-content">
+                    <div class="card-body">
+                        <p class="card-text">NEW</p>
+                        <h1 class="card-title"><span class="maven-font-h1">Easy way to feel better</span> </h1>
+                        <button type="button" class="btn btn-warning" href="./pages/menu.html">Order Now</button>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
 
 
+    <!-- GRID-ITEMS -->
+    <div class="container-md content-style">
+        <div class="row text-center">
+            <div class="col col-title-styles">
+                <h2><span class="maven-font-h1">Some Options</span></h2>
+                <p>Choose the best for you...</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card card-custom">
+                    <img src="./img/salad-5.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><span class="maven-font-h5">hawaii</span></h5>
+                        <button type="button" class="btn btn-warning" href="./pages/menu.html">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card card-custom">
+                    <img src="./img/salad-3.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><span class="maven-font-h5">Manila</span></h5>
+                        <button type="button" class="btn btn-warning" href="./pages/menu.html">Order Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+                <div class="card card-custom">
+                    <img src="./img/salad-4.webp" class="card-img-top" alt="...">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"><span class="maven-font-h5">Tokio</span></h5>
+                        <button type="button" class="btn btn-warning" href="./pages/menu.html">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CAPTION  -->
+
+    <div class="container-md content-style text-center">
+        <div class="row">
+            <blockquote class="blockquote">
+                <h3><span class="maven-font-h1">Our Best For You</span></h3>
+              </blockquote>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container-fluid footer-container text-center align-items-center ">
+            <div class="row">
+                <div class="col-3 footer-info">
+                    <img id="image-footer" src="./img/logo-claro.svg" alt="logo-magui.footer">
+                    <h4><span class="maven-font-h1">GeeksHubs Academy</span></h4>
+                    <p>Design by Abraham Escobar 2024</p>
+            </div>
+            </div>
+        </div>
+    </footer>
     <!-- Script -->
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
