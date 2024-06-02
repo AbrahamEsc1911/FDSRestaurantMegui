@@ -150,7 +150,7 @@ body {
 /* GRID */
 
 .container-grip-main {
-    height: 100vh;
+    height: 110vh;
     width: 100vw;
 
     margin: 0;
@@ -170,7 +170,7 @@ body {
 }
 
 .container-primary-title {
-    height:30vh;
+    height:10vh;
     width: 70vw;
 
     /* background-color: green; */
@@ -187,4 +187,20 @@ body {
     border-radius: 3em;
 
     box-shadow: 1em 1em 1.5em gray;
+}
+
+/* CAPTION */
+
+.conteiner-caption {
+    height: 30vh;
+    width: 100vw;
+
+    /* background-color: yellow; */
+
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
